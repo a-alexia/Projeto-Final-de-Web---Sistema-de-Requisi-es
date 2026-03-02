@@ -3,7 +3,6 @@ import mysql from 'mysql2';
 const pool = mysql.createPool({
   host: 'localhost',
   user: 'root',
-  password: 'Senha@12345', // <- sua senha do MySQL Workbench
   database: 'projeto_pedidos'
 });
 
