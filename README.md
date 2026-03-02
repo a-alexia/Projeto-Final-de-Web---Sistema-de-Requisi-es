@@ -1,33 +1,59 @@
-Como rodar o projeto
+Sistema de Requisições
 
-1. Backend
+Sistema web desenvolvido como projeto acadêmico com o objetivo de simular um fluxo interno de requisições, permitindo criação, visualização, exclusão e gerenciamento de solicitações.
 
-Abra um terminal na pasta do backend.
+- Tecnologias Utilizadas
 
-Instale:
+Frontend:
+React
+JavaScript
+HTML
+CSS
 
+Backend:
+Node.js
+Express
+
+Banco de Dados:
+ MySQL
+
+- Funcionalidades
+
+Criação de requisições
+Listagem de requisições cadastradas
+Integração entre frontend e backend
+Comunicação com banco de dados
+Estruturação de API REST
+
+Como Executar o Projeto
+
+- Backend
+
+Acesse a pasta do backend:
+cd backend
+
+Instale as dependências:
 npm install
 
-
 Inicie o servidor:
-
 node server.js
 
+O backend será executado em:
+http://localhost:5000
 
-O backend estará rodando na porta configurada no código (geralmente http://localhost:5000).
+-Frontend
 
-2. Frontend
+Acesse a pasta do frontend:
+cd frontend
 
-Abra outro terminal na pasta do frontend (react).
+Instale as dependências:
+npm install
 
-Inicie o frontend:
-
+Inicie a aplicação:
 npm start
 
-A aplicação abrirá automaticamente no navegador (geralmente em http://localhost:3000).
+O frontend será aberto automaticamente em:
+http://localhost:3000
 
-3. Observação
-
-Os dois precisam estar rodando ao mesmo tempo para o sistema funcionar.
-
-Se o frontend não conseguir conectar, confira se o backend está realmente ativo.
+Observação:
+Certifique-se de que o backend esteja em execução antes de iniciar o frontend, para que a comunicação entre as camadas funcione corretamente.
